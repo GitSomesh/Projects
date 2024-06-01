@@ -1,0 +1,18 @@
+.bg-img {
+    
+    background-image: url("U1.jpg");
+  
+    
+    min-height: 800px;
+    width: 1540px;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position :fixed;
+    
+  }
+  a{
+    color:yellow;
+    
+  }

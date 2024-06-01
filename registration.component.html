@@ -1,0 +1,32 @@
+<div class="container">
+        
+        <form >
+            <div class="row"><h1><u>Registration</u></h1></div>
+            <div class="row">
+                <div  style="margin-top:50px;"><label style="margin-right:150px;">Full Name: <input type="text" [(ngModel)]="fullname" [ngModelOptions]="{standalone:true}" id="fullname"  style="color: black;"></label><label>Enrollment No:<input type="text" [(ngModel)]="enrollmentno" [ngModelOptions]="{standalone:true}" id="enrollmentno"  style="color: black;"></label></div>
+                </div>
+        
+                <div>&nbsp;</div>
+                <div>
+                    <div><label style="margin-right:80px;">Email:<input type="text" [(ngModel)]="email" [ngModelOptions]="{standalone:true}" id="email"  style="color: black;"></label><label style="margin-left:70px;">Phone Number:<input type="text" [(ngModel)]="phonenumber" [ngModelOptions]="{standalone:true}" id="phonenumber"  style="color: black;"></label></div>
+                
+                    </div>
+                    
+                    <div>&nbsp;</div>
+                    <div class = "row">
+                        <div><label style="margin-right:150px;">Password:<input type="password" [(ngModel)]="password" [ngModelOptions]="{standalone:true}" id="password"  style="color: black;"></label><label>Confirm Password:<input type="password" [(ngModel)]="confirmpassword" [ngModelOptions]="{standalone:true}" id="confirmpassword" style="color: black;"></label></div>
+                        
+                        </div>
+                        <div>&nbsp;</div>
+                        <div class = "row" style="margin-right: 400px;">
+                            <div><label style="margin-right:5px; margin-left:180px;">Gender:</label><label><input type="radio" [(ngModel)]="gender" [ngModelOptions]="{standalone:true}"name="gender"  style="margin-right:7px ;" value="male">Male</label><label><input type="radio" [(ngModel)]="gender" [ngModelOptions]="{standalone:true}" value="female" name="gender"  style="margin-right:7px ;">Female</label></div>
+                        
+                        
+                            
+                            </div>
+                            <div>&nbsp;&nbsp;</div>
+                            <div class="row">
+                                <button (click)=save()><label style="text-align: center;">Register</label></button>
+                            </div>
+</form>
+                           
